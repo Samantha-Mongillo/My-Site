@@ -12,26 +12,34 @@
  Display: inline-block; = can display elements in a row*/
 /*body is the container/parent element*/
 body {
+    background-color: #BA6476;
+    color: black;
+    font-family: 'Merriweather', serif;
     margin: 0;
     text-align: center;
     /*stack of fallback fonts when someone's OS doesn't render a certain font*/
-    font-family: 'Merriweather', serif;
-    background-color: #BA6476;
 }
 /*h1 is a block element*/
+/*the parent of the h1 is the body because h1 is contained inside the body - having a font size in the body and having a font size in the h1 tag leaves the h1 inheriting whatever font the body was set to - when using em for sizing. If using static sizes such as pixel sizes, nothing is inherited. When using rem (root em), it will ignore the parent sizes.*/
+
 h1 {
-    margin-top: 0;
-    /*margin: 0 auto;*/
+    color: #66BFBF;
+    font-size: 80px;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 50px;
 }
 
 h2 {
+    color: #66BFBF;
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-weight: normal;
+    
 }
 
 h3 {
+    color: rgb(80, 236, 241);
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -40,8 +48,43 @@ hr {
     border-color: #FCC0C0;
     border-top-style: dotted;
     border-width: 8px;
+    width: 20%;
+}
+
+.blog-img {
     width: 10%;
 }
+
+.fam-img {
+    width: 15%;
+    border: 5px solid rgb(30, 235, 235);
+}
+
+.husband-img {
+    width: 15%;
+    border: 5px solid rgb(30, 235, 235);
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.p {
+    font-size: 5px;
+    overflow-wrap: break-word;
+}
+
+.skills-img {  
+    width: 10%;
+}
+
+.skills1 {
+    width: 30%;
+    margin: auto;
+}
+
+
 
 
 
