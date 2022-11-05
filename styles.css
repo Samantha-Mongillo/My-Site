@@ -12,8 +12,8 @@
  Display: inline-block; = can display elements in a row*/
 /*body is the container/parent element*/
 body {
-    background-color: #BA6476;
-    color: black;
+    background-color: #41383a;
+    color: rgb(64, 233, 224);
     font-family: 'Merriweather', serif;
     margin: 0;
     text-align: center;
@@ -82,15 +82,15 @@ a:hover {
 }
 
 .fam-img {
-    width: 15%;
-    border: 5px dotted rgb(134, 37, 134);
+    width: 15.01%;
+    border: 5px;
     padding-bottom: 5px;
     padding-top: 5px
 }
 
 .husband-img {
-    width: 15%;
-    border: 5px dotted rgb(134, 37, 134);
+    width: 14.9%;
+    border: 5px;
     padding-bottom: 5px;
     padding-top: 5px
 }
@@ -107,6 +107,10 @@ a:hover {
     padding-left: 5px;
 }
 
+.collab {
+    height: 90px;
+}
+
 .intro {
     width: 30%;
     margin: auto;
@@ -115,6 +119,7 @@ a:hover {
 .p {
     font-size: 5px;
     overflow-wrap: break-word;
+    line-height: 5%;
 }
 
 .skills-img {  
@@ -155,6 +160,7 @@ a:hover {
   background-image: linear-gradient(to bottom, #bc3cfc, #3498db);
   text-decoration: none;
 }
+
 
 
 
