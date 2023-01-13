@@ -1,2 +1,1 @@
-#My-Site
-Project using CSS
+This project is my first personal website. 
